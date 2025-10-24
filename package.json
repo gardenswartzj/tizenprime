@@ -8,16 +8,23 @@
   "description": "XPrime for TizenTube.",
   "packageType": "app",
   "websiteURL": "https://xprime.tv/",
-  "appPath": "index.html",
+  "main": "dist/userScript.js",
+  "serviceFile": "dist/service.js",
   "keys": [
-    "MediaPlayPause",
+    "ArrowUp",
+    "ArrowDown",
+    "ArrowLeft",
+    "ArrowRight",
+    "Enter",
+    "Return",
     "MediaPlay",
     "MediaPause",
     "MediaStop",
-    "MediaFastForward",
     "MediaRewind",
-    "MediaTrackNext",
-    "MediaTrackPrevious"
+    "MediaFastForward",
+    "VolumeUp",
+    "VolumeDown",
+    "VolumeMute"
   ],
   "repository": {
     "url": "git+https://github.com/gardenswartzj/tizenprime.git"
