@@ -18,7 +18,7 @@ app.get('/health', (req, res) => {
     res.json({
         status: 'healthy',
         service: 'TizenPrime TV Service',
-        version: '1.0.3'
+        version: '1.1.0'
     });
 });
 
